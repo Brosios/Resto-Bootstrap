@@ -1,11 +1,4 @@
-/**
-* Template Name: Restaurantly - v3.7.0
-* Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
+/*-------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
@@ -27,7 +20,6 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", serif;
 }
-
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -41,7 +33,6 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   background: #1a1814;
 }
-
 #preloader:before {
   content: "";
   position: fixed;
@@ -56,7 +47,6 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation: animate-preloader 1s linear infinite;
   animation: animate-preloader 1s linear infinite;
 }
-
 @-webkit-keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
@@ -65,7 +55,6 @@ h1, h2, h3, h4, h5, h6 {
     transform: rotate(360deg);
   }
 }
-
 @keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
@@ -106,7 +95,6 @@ h1, h2, h3, h4, h5, h6 {
   visibility: visible;
   opacity: 1;
 }
-
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
@@ -147,7 +135,6 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   max-height: 40px;
 }
-
 /*--------------------------------------------------------------
 # Book a table button Menu
 --------------------------------------------------------------*/
@@ -173,7 +160,6 @@ h1, h2, h3, h4, h5, h6 {
     padding: 8px 20px;
   }
 }
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -263,7 +249,6 @@ h1, h2, h3, h4, h5, h6 {
     left: -100%;
   }
 }
-
 /**
 * Mobile Navigation 
 */
@@ -275,7 +260,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
   transition: 0.5s;
 }
-
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
@@ -351,7 +335,6 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -543,11 +526,9 @@ section {
   padding: 60px 0;
   overflow: hidden;
 }
-
 .section-bg {
   background-color: #1a1814;
 }
-
 .section-title {
   padding-bottom: 40px;
 }
@@ -578,7 +559,6 @@ section {
   font-family: "Playfair Display", serif;
   color: #990014;
 }
-
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -716,7 +696,6 @@ section {
     background-attachment: fixed;
   }
 }
-
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
@@ -841,7 +820,6 @@ iframe {
   font-family: "Poppins", sans-serif;
   color: rgba(255, 255, 255, 0.5);
 }
-
 /*--------------------------------------------------------------
 # Specials
 --------------------------------------------------------------*/
@@ -894,7 +872,6 @@ iframe {
     padding: 15px;
   }
 }
-
 /*--------------------------------------------------------------
 # Events
 --------------------------------------------------------------*/
@@ -972,7 +949,6 @@ iframe {
 .events .swiper-pagination .swiper-pagination-bullet-active {
   background-color: goldenrod;
 }
-
 /*--------------------------------------------------------------
 # Book A Table
 --------------------------------------------------------------*/
@@ -1059,7 +1035,6 @@ iframe {
 .book-a-table .php-email-form button[type=submit]:hover {
   background: rgb(209, 171, 74);
 }
-
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
@@ -1127,7 +1102,6 @@ iframe {
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: rgb(209, 171, 74);
 }
-
 /*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
@@ -1272,7 +1246,6 @@ iframe {
     transform: rotate(360deg);
   }
 }
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
